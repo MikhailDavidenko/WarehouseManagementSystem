@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Warehouse Management System\WarehouseManagementSystem.csproj" />
+    <ProjectReference Include="..\WarehouseManagementSystem\WarehouseManagementSystem.csproj" />
   </ItemGroup>
 
   <ItemGroup>
