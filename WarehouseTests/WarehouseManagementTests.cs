@@ -67,7 +67,7 @@ namespace WarehouseTests
             pallet.AddBox(box2);
 
             // Assert
-            Assert.AreEqual(45, pallet.Weight); // 10 + 5 + 30 (базовый вес паллеты)
+            Assert.AreEqual(45, pallet.Weight); // 10 + 5 + 30 (ГЎГ Г§Г®ГўГ»Г© ГўГҐГ± ГЇГ Г«Г«ГҐГІГ»)
         }
 
         [Test]
@@ -83,7 +83,7 @@ namespace WarehouseTests
             pallet.AddBox(box2);
 
             // Assert
-            Assert.AreEqual(3084000, pallet.CalculateVolume()); // 200 * 100 * 150 +  (объем коробки 1) +  (объем коробки 2)
+            Assert.AreEqual(3084000, pallet.CalculateVolume()); // 200 * 100 * 150 +  (Г®ГЎГєГҐГ¬ ГЄГ®Г°Г®ГЎГЄГЁ 1) +  (Г®ГЎГєГҐГ¬ ГЄГ®Г°Г®ГЎГЄГЁ 2)
         }
 
         [Test]
@@ -104,7 +104,7 @@ namespace WarehouseTests
             Assert.AreEqual(expectedExpirationDate, actualExpirationDate);
         }
 
-        // Тесты для класса ConsolePalletDisplayService
+        
         [Test]
         public void ConsolePalletDisplayService_DisplayPalletsGroupedByExpiration_ShouldDisplayCorrectly()
         {
