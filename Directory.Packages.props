@@ -7,6 +7,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="AutoMapper" Version="13.0.1" />
+    <PackageVersion Include="Confluent.Kafka" Version="2.8.0" />
+    <PackageVersion Include="Confluent.Kafka.Core.Serialization.JsonCore" Version="1.0.0" />
     <PackageVersion Include="FluentAssertions" Version="7.0.0-alpha.5" />
     <PackageVersion Include="FluentValidation" Version="11.10.0" />
     <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.0" />

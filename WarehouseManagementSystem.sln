@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Migrations.Postgre", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Migrations.Sqlite", "src\Data.Migrations.Sqlite\Data.Migrations.Sqlite.csproj", "{48AA2F38-D54E-4F03-B01F-59EA95F5FEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Common", "src\Kafka.Common\Kafka.Common.csproj", "{B8F5299B-E123-4844-B4C5-D59223FD8AA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{48AA2F38-D54E-4F03-B01F-59EA95F5FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48AA2F38-D54E-4F03-B01F-59EA95F5FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48AA2F38-D54E-4F03-B01F-59EA95F5FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F5299B-E123-4844-B4C5-D59223FD8AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F5299B-E123-4844-B4C5-D59223FD8AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F5299B-E123-4844-B4C5-D59223FD8AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F5299B-E123-4844-B4C5-D59223FD8AA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{FC1AB9FB-1D36-4A1B-B334-84D3AF47715C} = {51474D51-67F2-4CA4-BC4F-5A92FC147836}
 		{26588A4F-5FA4-4503-86BB-D77109E9D356} = {0D99116B-5487-4D33-87F1-C07D086444C9}
 		{48AA2F38-D54E-4F03-B01F-59EA95F5FEB2} = {0D99116B-5487-4D33-87F1-C07D086444C9}
+		{B8F5299B-E123-4844-B4C5-D59223FD8AA5} = {0D99116B-5487-4D33-87F1-C07D086444C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD982D5A-5525-48A2-872E-76AEB12FEBBC}
